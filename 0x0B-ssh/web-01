@@ -2,6 +2,6 @@
 # server-01 login
 
 eval $("ssh-agent")
-ssh-add ~/school.pub
+ssh-add ~/.ssh/school
 
 ssh ubuntu@54.173.210.244
